@@ -535,30 +535,30 @@ Redis: Employed for caching and real-time data processing, enhancing performance
 									<div class="items">
 										<div class="item half">
 											<div class="input_wrapper">
-												<input id="name" type="text" />
+												<input id="name" type="text" required />
 												<span class="moving_placeholder">Name *</span>
 											</div>
 										</div>
 										<div class="item half">
 											<div class="input_wrapper">
-												<input id="email" type="email"  name = "email"/>
+												<input id="email" type="email"  name = "email" required/>
 												<span class="moving_placeholder">Email *</span>
 											</div>
 										</div>
 										<div class="item">
 											<div class="input_wrapper">
-												<input id="phone" type="text" name = "phone" />
+												<input id="phone" type="text" name = "phone" required />
 												<span class="moving_placeholder">Phone</span>
 											</div>
 										</div>
 										<div class="item">
 											<div class="input_wrapper">
-												<textarea id="message" name = "message"></textarea>
+												<textarea id="message" name = "message" required></textarea>
 												<span class="moving_placeholder">Message</span>
 											</div>
 										</div>
 										<div class="item">
-											<button  type = "submit">Send Message</button>
+											<button  id = "forwardMessage" type = "submit">Send Message</button>
 										</div>
 									</div>
 								</div>

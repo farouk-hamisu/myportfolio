@@ -327,3 +327,13 @@ section{
 	clear: both;
 	display: table;
 }
+#forwardMessage {
+  width:100%; 
+  background-color: transparent; 
+  margin: 5px 0;
+  border-radius: 5px; 
+  font-size: 16px;
+  border: 1px thin white; 
+  padding:0.5rem; 
+  color:white; 
+}
